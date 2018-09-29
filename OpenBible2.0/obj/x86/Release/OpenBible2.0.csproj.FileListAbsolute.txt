@@ -1,0 +1,16 @@
+C:\Users\João Vitor\source\repos\OpenBible2.0\OpenBible2.0\bin\x86\Release\OpenBible2.0.exe.config
+C:\Users\João Vitor\source\repos\OpenBible2.0\OpenBible2.0\bin\x86\Release\OpenBible2.0.exe
+C:\Users\João Vitor\source\repos\OpenBible2.0\OpenBible2.0\bin\x86\Release\OpenBible2.0.pdb
+C:\Users\João Vitor\source\repos\OpenBible2.0\OpenBible2.0\bin\x86\Release\MaterialSkin.dll
+C:\Users\João Vitor\source\repos\OpenBible2.0\OpenBible2.0\obj\x86\Release\OpenBible2._0.Form1.resources
+C:\Users\João Vitor\source\repos\OpenBible2.0\OpenBible2.0\obj\x86\Release\OpenBible2._0.Properties.Resources.resources
+C:\Users\João Vitor\source\repos\OpenBible2.0\OpenBible2.0\obj\x86\Release\OpenBible2.0.csproj.GenerateResource.cache
+C:\Users\João Vitor\source\repos\OpenBible2.0\OpenBible2.0\obj\x86\Release\OpenBible2.0.csproj.CoreCompileInputs.cache
+C:\Users\João Vitor\source\repos\OpenBible2.0\OpenBible2.0\obj\x86\Release\OpenBible2.0.csproj.CopyComplete
+C:\Users\João Vitor\source\repos\OpenBible2.0\OpenBible2.0\obj\x86\Release\OpenBible2.0.exe
+C:\Users\João Vitor\source\repos\OpenBible2.0\OpenBible2.0\obj\x86\Release\OpenBible2.0.pdb
+C:\Users\João Vitor\source\repos\OpenBible2.0\OpenBible2.0\obj\x86\Release\OpenBible2._0.frmNovaJanela.resources
+C:\Users\João Vitor\source\repos\OpenBible2.0\OpenBible2.0\obj\x86\Release\OpenBible2._0.frmSobre.resources
+C:\Users\João Vitor\source\repos\OpenBible2.0\OpenBible2.0\obj\x86\Release\OpenBible2._0.frmSplashScreen.resources
+C:\Users\João Vitor\source\repos\OpenBible2.0\OpenBible2.0\obj\x86\Release\OpenBible2._0.frmPesquisar.resources
+C:\Users\João Vitor\source\repos\OpenBible2.0\OpenBible2.0\obj\x86\Release\OpenBible2.0.csprojAssemblyReference.cache
