@@ -1,6 +1,8 @@
 # OpenBible2.0
 _Aplicação desenvolvida em C# utilizando banco de dados em access 1997 contendo o conteúdo da bíblia._
 
+![Imagem do programa](https://image.ibb.co/npZv9K/1.png)
+
 Esse aplicativo, para windows x86, utiliza a linguagem **C#**, mesclando tags **HTML** num _WebBrowser_ juntamente com a utilização do framework **Bootstrap 3**.
 
 Todo o aplicativo juntamente com a bíblia sagrada compilada em **Access**, são de uso livres, sem fins lucrativos, isso quer dizer que você pode usar, modificar, atualizar, etc sem problema algum, peço somente os créditos pelo desenvolvimento do mesmo.
