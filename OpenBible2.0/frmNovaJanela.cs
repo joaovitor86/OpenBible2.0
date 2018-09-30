@@ -138,10 +138,12 @@ namespace OpenBible2._0
             InitializeComponent();
 
             #region Skin manager do form
+            /*
             var skinManager = MaterialSkinManager.Instance;
             skinManager.AddFormToManage(this);
             skinManager.Theme = MaterialSkinManager.Themes.DARK;
             skinManager.ColorScheme = new ColorScheme(Primary.BlueGrey800, Primary.BlueGrey900, Primary.BlueGrey50, Accent.LightBlue200, TextShade.WHITE);
+            */
             #endregion
 
             #region Configuração do browser da bíblia
@@ -155,7 +157,7 @@ namespace OpenBible2._0
         private void frmNovaJanela_Load(object sender, EventArgs e)
         {
             #region Seta as cores personalizadas
-            this.labelBiblia.BackColor = Cor1;
+            //this.labelBiblia.BackColor = Cor1;
             #endregion
 
             #region  Atribuindo o texto ao componente resBiblia

@@ -169,7 +169,7 @@ namespace OpenBible2._0
             string body = string.Empty;
             foreach (DataRow _ROW in _DT.Rows)
             {
-                body += "<p><span class=\"label label-warning\">" + _ROW["Versiculo"].ToString() + "</span> &minus; " + _ROW["Descricao"].ToString() + "</p>";
+                body += "<p><span class=\"label label-primary\">" + _ROW["Versiculo"].ToString() + "</span> &minus; " + _ROW["Descricao"].ToString() + "</p>";
             }
 
             // Final da exibição

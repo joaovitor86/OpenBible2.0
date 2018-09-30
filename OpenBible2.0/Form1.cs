@@ -30,6 +30,8 @@ namespace OpenBible2._0
         public string _CAPITULO = "1";
         public string _VERSICULO = "1";
         public string _NOME_LIVRO = "Genesis";
+
+        private readonly MaterialSkinManager skinManager;
         #endregion
 
         #region Promessas
@@ -175,10 +177,11 @@ namespace OpenBible2._0
             InitializeComponent();
 
             #region Skin manager do form
-            var skinManager = MaterialSkinManager.Instance;
+            skinManager = MaterialSkinManager.Instance;
             skinManager.AddFormToManage(this);
-            skinManager.Theme = MaterialSkinManager.Themes.DARK;
-            skinManager.ColorScheme = new ColorScheme(Primary.BlueGrey800, Primary.BlueGrey900, Primary.BlueGrey50, Accent.LightBlue200, TextShade.WHITE);
+            skinManager.Theme = MaterialSkinManager.Themes.LIGHT;
+            skinManager.ColorScheme = new ColorScheme(Primary.Blue400, Primary.Blue500, Primary.Blue500, Accent.LightBlue200, TextShade.WHITE);
+            //Primary.BlueGrey800, Primary.BlueGrey900, Primary.BlueGrey50, Accent.LightBlue200, TextShade.WHITE
             #endregion
 
             #region Configuração do browser da bíblia
@@ -190,10 +193,12 @@ namespace OpenBible2._0
         private void Form1_Load(object sender, EventArgs e)
         {
             #region Seta as cores personalizadas
+            /*
             this.labelLivros.BackColor = Cor1;
             this.labelCapitulos.BackColor = Cor1;
             this.labelVersiculos.BackColor = Cor1;
             this.labelBiblia.BackColor = Cor1;
+            */
             #endregion
 
             #region Chamada de métodos
@@ -299,8 +304,7 @@ namespace OpenBible2._0
             this.Promessas();
             #endregion
         }
-        #endregion
 
-        
+        #endregion
     }
 }

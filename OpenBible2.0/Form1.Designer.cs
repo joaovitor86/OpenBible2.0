@@ -59,6 +59,7 @@
             this.painelDeLivros.Anchor = ((System.Windows.Forms.AnchorStyles)(((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Bottom) 
             | System.Windows.Forms.AnchorStyles.Left)));
             this.painelDeLivros.BackColor = System.Drawing.Color.White;
+            this.painelDeLivros.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
             this.painelDeLivros.Controls.Add(this.lstVersiculos);
             this.painelDeLivros.Controls.Add(this.labelVersiculos);
             this.painelDeLivros.Controls.Add(this.lstCapitulos);
@@ -86,7 +87,7 @@
             this.lstVersiculos.Margin = new System.Windows.Forms.Padding(3, 4, 3, 4);
             this.lstVersiculos.MultiSelect = false;
             this.lstVersiculos.Name = "lstVersiculos";
-            this.lstVersiculos.Size = new System.Drawing.Size(219, 121);
+            this.lstVersiculos.Size = new System.Drawing.Size(217, 119);
             this.lstVersiculos.TabIndex = 5;
             this.lstVersiculos.UseCompatibleStateImageBehavior = false;
             this.lstVersiculos.Click += new System.EventHandler(this.lstVersiculos_Click);
@@ -109,7 +110,7 @@
             this.labelVersiculos.MouseState = MaterialSkin.MouseState.HOVER;
             this.labelVersiculos.Name = "labelVersiculos";
             this.labelVersiculos.Padding = new System.Windows.Forms.Padding(4, 7, 7, 4);
-            this.labelVersiculos.Size = new System.Drawing.Size(219, 35);
+            this.labelVersiculos.Size = new System.Drawing.Size(217, 35);
             this.labelVersiculos.TabIndex = 4;
             this.labelVersiculos.Text = "Versículos";
             // 
@@ -128,7 +129,7 @@
             this.lstCapitulos.Margin = new System.Windows.Forms.Padding(3, 4, 3, 4);
             this.lstCapitulos.MultiSelect = false;
             this.lstCapitulos.Name = "lstCapitulos";
-            this.lstCapitulos.Size = new System.Drawing.Size(219, 144);
+            this.lstCapitulos.Size = new System.Drawing.Size(217, 144);
             this.lstCapitulos.TabIndex = 3;
             this.lstCapitulos.UseCompatibleStateImageBehavior = false;
             this.lstCapitulos.Click += new System.EventHandler(this.lstCapitulos_Click);
@@ -151,7 +152,7 @@
             this.labelCapitulos.MouseState = MaterialSkin.MouseState.HOVER;
             this.labelCapitulos.Name = "labelCapitulos";
             this.labelCapitulos.Padding = new System.Windows.Forms.Padding(4, 7, 7, 4);
-            this.labelCapitulos.Size = new System.Drawing.Size(219, 35);
+            this.labelCapitulos.Size = new System.Drawing.Size(217, 35);
             this.labelCapitulos.TabIndex = 2;
             this.labelCapitulos.Text = "Capítulos";
             // 
@@ -171,7 +172,7 @@
             this.lstLivros.Margin = new System.Windows.Forms.Padding(3, 4, 3, 4);
             this.lstLivros.MultiSelect = false;
             this.lstLivros.Name = "lstLivros";
-            this.lstLivros.Size = new System.Drawing.Size(219, 144);
+            this.lstLivros.Size = new System.Drawing.Size(217, 144);
             this.lstLivros.TabIndex = 1;
             this.lstLivros.UseCompatibleStateImageBehavior = false;
             this.lstLivros.View = System.Windows.Forms.View.Details;
@@ -200,7 +201,7 @@
             this.labelLivros.MouseState = MaterialSkin.MouseState.HOVER;
             this.labelLivros.Name = "labelLivros";
             this.labelLivros.Padding = new System.Windows.Forms.Padding(4, 7, 7, 4);
-            this.labelLivros.Size = new System.Drawing.Size(219, 35);
+            this.labelLivros.Size = new System.Drawing.Size(217, 35);
             this.labelLivros.TabIndex = 0;
             this.labelLivros.Text = "Livros";
             // 
@@ -210,6 +211,7 @@
             | System.Windows.Forms.AnchorStyles.Left) 
             | System.Windows.Forms.AnchorStyles.Right)));
             this.panel1.BackColor = System.Drawing.Color.White;
+            this.panel1.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
             this.panel1.Controls.Add(this.resBiblia);
             this.panel1.Controls.Add(this.labelBiblia);
             this.panel1.Location = new System.Drawing.Point(237, 66);
@@ -226,7 +228,7 @@
             this.resBiblia.MinimumSize = new System.Drawing.Size(20, 20);
             this.resBiblia.Name = "resBiblia";
             this.resBiblia.ScriptErrorsSuppressed = true;
-            this.resBiblia.Size = new System.Drawing.Size(649, 487);
+            this.resBiblia.Size = new System.Drawing.Size(647, 485);
             this.resBiblia.TabIndex = 2;
             this.resBiblia.Url = new System.Uri("", System.UriKind.Relative);
             // 
@@ -243,7 +245,7 @@
             this.labelBiblia.MouseState = MaterialSkin.MouseState.HOVER;
             this.labelBiblia.Name = "labelBiblia";
             this.labelBiblia.Padding = new System.Windows.Forms.Padding(4, 7, 7, 4);
-            this.labelBiblia.Size = new System.Drawing.Size(653, 35);
+            this.labelBiblia.Size = new System.Drawing.Size(651, 35);
             this.labelBiblia.TabIndex = 1;
             this.labelBiblia.Text = "Bíblia";
             // 

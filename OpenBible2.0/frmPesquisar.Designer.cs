@@ -34,17 +34,17 @@
             this.btnFechar = new MaterialSkin.Controls.MaterialRaisedButton();
             this.btnExibir = new MaterialSkin.Controls.MaterialRaisedButton();
             this.dgvDados = new System.Windows.Forms.DataGridView();
+            this.Column1 = new System.Windows.Forms.DataGridViewTextBoxColumn();
+            this.Column3 = new System.Windows.Forms.DataGridViewTextBoxColumn();
+            this.Column4 = new System.Windows.Forms.DataGridViewTextBoxColumn();
+            this.Column5 = new System.Windows.Forms.DataGridViewTextBoxColumn();
+            this.Column2 = new System.Windows.Forms.DataGridViewTextBoxColumn();
             this.lblPesquisa = new MaterialSkin.Controls.MaterialLabel();
             this.txtPesquisa = new MaterialSkin.Controls.MaterialSingleLineTextField();
             this.lblTotalResultados = new MaterialSkin.Controls.MaterialLabel();
             this.panel1 = new System.Windows.Forms.Panel();
             this.resBiblia = new System.Windows.Forms.WebBrowser();
             this.labelBiblia = new MaterialSkin.Controls.MaterialLabel();
-            this.Column1 = new System.Windows.Forms.DataGridViewTextBoxColumn();
-            this.Column3 = new System.Windows.Forms.DataGridViewTextBoxColumn();
-            this.Column4 = new System.Windows.Forms.DataGridViewTextBoxColumn();
-            this.Column5 = new System.Windows.Forms.DataGridViewTextBoxColumn();
-            this.Column2 = new System.Windows.Forms.DataGridViewTextBoxColumn();
             ((System.ComponentModel.ISupportInitialize)(this.dgvDados)).BeginInit();
             this.panel1.SuspendLayout();
             this.SuspendLayout();
@@ -108,9 +108,45 @@
             this.dgvDados.Size = new System.Drawing.Size(776, 160);
             this.dgvDados.TabIndex = 4;
             // 
+            // Column1
+            // 
+            this.Column1.HeaderText = "#";
+            this.Column1.Name = "Column1";
+            this.Column1.ReadOnly = true;
+            this.Column1.Width = 40;
+            // 
+            // Column3
+            // 
+            this.Column3.HeaderText = "Livro";
+            this.Column3.Name = "Column3";
+            this.Column3.ReadOnly = true;
+            this.Column3.Visible = false;
+            // 
+            // Column4
+            // 
+            this.Column4.HeaderText = "Capitulo";
+            this.Column4.Name = "Column4";
+            this.Column4.ReadOnly = true;
+            this.Column4.Visible = false;
+            // 
+            // Column5
+            // 
+            this.Column5.HeaderText = "Versiculo";
+            this.Column5.Name = "Column5";
+            this.Column5.ReadOnly = true;
+            this.Column5.Visible = false;
+            // 
+            // Column2
+            // 
+            this.Column2.AutoSizeMode = System.Windows.Forms.DataGridViewAutoSizeColumnMode.Fill;
+            this.Column2.HeaderText = "Descrição";
+            this.Column2.Name = "Column2";
+            this.Column2.ReadOnly = true;
+            // 
             // lblPesquisa
             // 
             this.lblPesquisa.AutoSize = true;
+            this.lblPesquisa.BackColor = System.Drawing.Color.Transparent;
             this.lblPesquisa.Depth = 0;
             this.lblPesquisa.Font = new System.Drawing.Font("Roboto", 11F);
             this.lblPesquisa.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(222)))), ((int)(((byte)(0)))), ((int)(((byte)(0)))), ((int)(((byte)(0)))));
@@ -123,7 +159,9 @@
             // 
             // txtPesquisa
             // 
+            this.txtPesquisa.BackColor = System.Drawing.SystemColors.Control;
             this.txtPesquisa.Depth = 0;
+            this.txtPesquisa.ForeColor = System.Drawing.SystemColors.ControlText;
             this.txtPesquisa.Hint = "";
             this.txtPesquisa.Location = new System.Drawing.Point(89, 75);
             this.txtPesquisa.MouseState = MaterialSkin.MouseState.HOVER;
@@ -140,6 +178,7 @@
             // lblTotalResultados
             // 
             this.lblTotalResultados.AutoSize = true;
+            this.lblTotalResultados.BackColor = System.Drawing.Color.Transparent;
             this.lblTotalResultados.Depth = 0;
             this.lblTotalResultados.Font = new System.Drawing.Font("Roboto", 11F);
             this.lblTotalResultados.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(222)))), ((int)(((byte)(0)))), ((int)(((byte)(0)))), ((int)(((byte)(0)))));
@@ -192,41 +231,6 @@
             this.labelBiblia.Size = new System.Drawing.Size(770, 35);
             this.labelBiblia.TabIndex = 1;
             this.labelBiblia.Text = "Bíblia";
-            // 
-            // Column1
-            // 
-            this.Column1.HeaderText = "#";
-            this.Column1.Name = "Column1";
-            this.Column1.ReadOnly = true;
-            this.Column1.Width = 40;
-            // 
-            // Column3
-            // 
-            this.Column3.HeaderText = "Livro";
-            this.Column3.Name = "Column3";
-            this.Column3.ReadOnly = true;
-            this.Column3.Visible = false;
-            // 
-            // Column4
-            // 
-            this.Column4.HeaderText = "Capitulo";
-            this.Column4.Name = "Column4";
-            this.Column4.ReadOnly = true;
-            this.Column4.Visible = false;
-            // 
-            // Column5
-            // 
-            this.Column5.HeaderText = "Versiculo";
-            this.Column5.Name = "Column5";
-            this.Column5.ReadOnly = true;
-            this.Column5.Visible = false;
-            // 
-            // Column2
-            // 
-            this.Column2.AutoSizeMode = System.Windows.Forms.DataGridViewAutoSizeColumnMode.Fill;
-            this.Column2.HeaderText = "Descrição";
-            this.Column2.Name = "Column2";
-            this.Column2.ReadOnly = true;
             // 
             // frmPesquisar
             // 
