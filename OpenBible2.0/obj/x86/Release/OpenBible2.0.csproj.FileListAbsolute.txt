@@ -13,4 +13,3 @@ C:\Users\João Vitor\source\repos\OpenBible2.0\OpenBible2.0\obj\x86\Release\Open
 C:\Users\João Vitor\source\repos\OpenBible2.0\OpenBible2.0\obj\x86\Release\OpenBible2._0.frmSobre.resources
 C:\Users\João Vitor\source\repos\OpenBible2.0\OpenBible2.0\obj\x86\Release\OpenBible2._0.frmSplashScreen.resources
 C:\Users\João Vitor\source\repos\OpenBible2.0\OpenBible2.0\obj\x86\Release\OpenBible2._0.frmPesquisar.resources
-C:\Users\João Vitor\source\repos\OpenBible2.0\OpenBible2.0\obj\x86\Release\OpenBible2.0.csprojAssemblyReference.cache
