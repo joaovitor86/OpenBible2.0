@@ -41,6 +41,7 @@
             | System.Windows.Forms.AnchorStyles.Left) 
             | System.Windows.Forms.AnchorStyles.Right)));
             this.painelBiblia.BackColor = System.Drawing.Color.White;
+            this.painelBiblia.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
             this.painelBiblia.Controls.Add(this.resBiblia);
             this.painelBiblia.Controls.Add(this.labelBiblia);
             this.painelBiblia.Location = new System.Drawing.Point(4, 66);
@@ -57,7 +58,7 @@
             this.resBiblia.MinimumSize = new System.Drawing.Size(20, 20);
             this.resBiblia.Name = "resBiblia";
             this.resBiblia.ScriptErrorsSuppressed = true;
-            this.resBiblia.Size = new System.Drawing.Size(783, 485);
+            this.resBiblia.Size = new System.Drawing.Size(781, 483);
             this.resBiblia.TabIndex = 2;
             // 
             // labelBiblia
@@ -73,7 +74,7 @@
             this.labelBiblia.MouseState = MaterialSkin.MouseState.HOVER;
             this.labelBiblia.Name = "labelBiblia";
             this.labelBiblia.Padding = new System.Windows.Forms.Padding(4, 7, 7, 4);
-            this.labelBiblia.Size = new System.Drawing.Size(787, 35);
+            this.labelBiblia.Size = new System.Drawing.Size(785, 35);
             this.labelBiblia.TabIndex = 1;
             this.labelBiblia.Text = "Bíblia";
             // 

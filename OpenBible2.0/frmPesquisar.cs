@@ -155,6 +155,11 @@ namespace OpenBible2._0
             #region Seta as cores personalizadas
             //this.labelBiblia.BackColor = Cor1;
             #endregion
+
+            #region dgvDados zebrado
+            dgvDados.RowsDefaultCellStyle.BackColor = Color.White;
+            dgvDados.AlternatingRowsDefaultCellStyle.BackColor = Color.AliceBlue;
+            #endregion
         }
 
         private void txtPesquisa_TextChanged(object sender, EventArgs e)

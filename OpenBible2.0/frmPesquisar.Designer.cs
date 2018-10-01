@@ -79,7 +79,7 @@
             // 
             this.dgvDados.AllowUserToAddRows = false;
             this.dgvDados.AllowUserToDeleteRows = false;
-            this.dgvDados.BackgroundColor = System.Drawing.Color.FromArgb(((int)(((byte)(255)))), ((int)(((byte)(255)))), ((int)(((byte)(192)))));
+            this.dgvDados.BackgroundColor = System.Drawing.SystemColors.Control;
             this.dgvDados.BorderStyle = System.Windows.Forms.BorderStyle.None;
             dataGridViewCellStyle1.Alignment = System.Windows.Forms.DataGridViewContentAlignment.MiddleLeft;
             dataGridViewCellStyle1.BackColor = System.Drawing.SystemColors.Control;
@@ -195,6 +195,7 @@
             | System.Windows.Forms.AnchorStyles.Left) 
             | System.Windows.Forms.AnchorStyles.Right)));
             this.panel1.BackColor = System.Drawing.Color.White;
+            this.panel1.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
             this.panel1.Controls.Add(this.resBiblia);
             this.panel1.Controls.Add(this.labelBiblia);
             this.panel1.Location = new System.Drawing.Point(12, 321);
@@ -211,7 +212,7 @@
             this.resBiblia.MinimumSize = new System.Drawing.Size(20, 20);
             this.resBiblia.Name = "resBiblia";
             this.resBiblia.ScriptErrorsSuppressed = true;
-            this.resBiblia.Size = new System.Drawing.Size(766, 159);
+            this.resBiblia.Size = new System.Drawing.Size(764, 157);
             this.resBiblia.TabIndex = 2;
             this.resBiblia.Url = new System.Uri("", System.UriKind.Relative);
             // 
@@ -228,7 +229,7 @@
             this.labelBiblia.MouseState = MaterialSkin.MouseState.HOVER;
             this.labelBiblia.Name = "labelBiblia";
             this.labelBiblia.Padding = new System.Windows.Forms.Padding(4, 7, 7, 4);
-            this.labelBiblia.Size = new System.Drawing.Size(770, 35);
+            this.labelBiblia.Size = new System.Drawing.Size(768, 35);
             this.labelBiblia.TabIndex = 1;
             this.labelBiblia.Text = "Bíblia";
             // 

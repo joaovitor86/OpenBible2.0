@@ -138,11 +138,13 @@ namespace OpenBible2._0
 
             foreach(Control _control in this.Controls)
             {
+                /*
                 if(_control is Label)
                 {
                     _control.BackColor = Color.Transparent;
                     _control.ForeColor = Color.White;
                 }
+                */
             }
 
             #region Configuração do assembly
